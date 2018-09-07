@@ -27,6 +27,7 @@ class Header extends Component {
         return (
             <div>
                 <Navbar light expand="md" className="bg-carShop text-white">
+                    <img src={require('../logo.png')} width="5%" alt="logo"/>
                     <NavbarBrand>CarShop</NavbarBrand>
                     <NavbarToggler onClick={this.toggle}/>
                     <Collapse isOpen={this.state.isOpen} navbar>
